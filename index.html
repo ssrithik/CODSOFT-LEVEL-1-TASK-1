@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>MY WEB DESIGN</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">Travelling the world</a></div>
+      <ul class="nav__links">
+        <li class="link">Home</li>
+        <li class="link">Signin</li>
+        <li class="link">About</li>
+        <li class="link">Contact</li>
+      </ul>
+      <div class="search__box">
+        <input type="text" placeholder="what's on your mind" />
+        <i class="ri-search-line"></i>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="container__left">
+        <div class="content">
+          <h1>DISCOVERING<br /><span>THE WORLD.</span></h1>
+          <p>
+            Unleash your wanderlust and discover the hidden gems of the world. 
+            Whether you're chasing sunsets on a secluded island or exploring the vibrant cultures of ancient cities,
+            we bring you closer to your next unforgettable experience.
+            Let’s make memories that last a lifetime.
+          </p>
+          <div class="btns">
+            <button class="read__more">Read More</button>
+            <button class="our__blogs">Our Blogs</button>
+          </div>
+          <div class="chevrons">
+            <span class="chev__left">
+              <i class="ri-arrow-left-s-line"></i>
+            </span>
+            <span class="chev__right">
+              <i class="ri-arrow-right-s-line"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="container__right">
+        <form>
+          <h4>Where you want to go?</h4>
+          <div class="form__group">
+            <label for="destination">Destination</label>
+            <input
+              type="text"
+              name="destination"
+              id="destination"
+              placeholder="Enter your Destination"
+            />
+          </div>
+          <div class="form__group">
+            <label for="date">Date and Day</label>
+            <input type="text" name="date" id="date" placeholder="DD/MM/YYYY" />
+          </div>
+          <button type="submit">Check your package</button>
+        </form>
+      </div>
+      <div class="bottom__tracker">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </body>
+</html>
